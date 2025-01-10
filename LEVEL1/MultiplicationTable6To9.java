@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class MultiplicationTable {
+public class MultiplicationTable6To9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        int integerArray[] = new int[10];
-        int count = 1;
-        for (int i = 0; i < 10; i++) {
+        int integerArray[] = new int[4];
+        int count =6;
+        for (int i =0; i <4; i++) {
             integerArray[i] = number * count;
             count++;
         }
-        int count1 = 1;
+        int count1 = 6;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <4; i++) {
             System.out.println(number + "*" + count1 + " =" + integerArray[i]);
             count1++;
         }
